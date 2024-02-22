@@ -1,0 +1,52 @@
+{
+  "RepeatTimes": 5,
+  "IntervalTimeMs": 1000,
+  "FE_Count": 4,
+  "isBroadcast_Time": 1,
+  "Broadcast_Time": "T00:00:00.000",
+  "DveConfig": [
+    {
+      "DveID": 0,
+      "DveIsValid": "Y",
+      "DveAddr": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "01"
+      ],
+      "DevPort": null,
+      "DevDescription": null,
+      "DveProtocl": 0,
+      "DveModel": "MultiMeter",
+      "Phase": 0
+    }
+  ],
+  "DataConfig": [
+    {
+      "DataName": null,
+      "Desc": "分合闸状态",
+      "UseBlockData": 1,
+      "IsMultiRouteData": false,
+      "BlockModelList": [],
+      "RouteIdx": 0,
+      "RegNo": 0,
+      "Type": 0,
+      "BlockDataCount": 1,
+      "DataModelName": "电压",
+      "DataID": [
+        "04",
+        "00",
+        "05",
+        "01"
+      ],
+      "CheckEnabled": true,
+      "Format": "XXX.X",
+      "DataLen": 6,
+      "Danwei": "次",
+      "DataRorW": 0,
+      "DveModel": "MultiMeter"
+    }
+  ]
+}

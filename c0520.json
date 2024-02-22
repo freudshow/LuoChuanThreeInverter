@@ -1,0 +1,63 @@
+{
+  "applianceName": "未命名",
+  "TotalYcCount": 6,
+  "TotalYxCount": 0,
+  "TotalYkCount": 0,
+  "TotalDDCount": 0,
+  "dataItem": [
+    {
+      "linkNo": 5,
+      "devNo": 0,
+      "RegNo": 0,
+      "type": 1,
+      "Name": "并网测UAB",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 5,
+      "devNo": 0,
+      "RegNo": 1,
+      "type": 1,
+      "Name": "并网测UBC",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 5,
+      "devNo": 0,
+      "RegNo": 2,
+      "type": 1,
+      "Name": "并网测UCA",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 5,
+      "devNo": 1,
+      "RegNo": 0,
+      "type": 1,
+      "Name": "并网点日发电量",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 5,
+      "devNo": 1,
+      "RegNo": 1,
+      "type": 1,
+      "Name": "并网点月发电量",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 5,
+      "devNo": 1,
+      "RegNo": 2,
+      "type": 1,
+      "Name": "并网点总发电量",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    }
+  ]
+}

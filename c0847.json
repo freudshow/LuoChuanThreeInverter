@@ -1,0 +1,37 @@
+{
+  "dataSourceList": [
+    {
+      "realDbNo": 289,
+      "description": "A相正向有功电能"
+    },
+    {
+      "realDbNo": 290,
+      "description": "B相正向有功电能"
+    },
+    {
+      "realDbNo": 291,
+      "description": "C相正向有功电能"
+    }
+  ],
+  "freezeDataList": [
+    {
+      "type": 0,
+      "depth": 31
+    },
+    {
+      "type": 1,
+      "depth": 36
+    },
+    {
+      "type": 2,
+      "depth": 10
+    },
+    {
+      "type": 3,
+      "depth": 4
+    }
+  ],
+  "acqPeriod": 10,
+  "resultStoreType": 0,
+  "startRealDbNo": 519
+}

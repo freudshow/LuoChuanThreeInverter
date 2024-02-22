@@ -1,0 +1,38 @@
+{
+  "ModbusYk": [],
+  "Dlt645_07Yk": [
+    {
+      "No": 0,
+      "YkNo": 171,
+      "ProType": 1,
+      "IsSpecial": 1,
+      "beizhu": null,
+      "DevAddr": "010203040506",
+      "DI0_3": "00000000",
+      "PA_PA2": "00000000",
+      "C0_C3": "00000000",
+      "Data": "0",
+      "UartNo": 0,
+      "SndFramCount": 2,
+      "YkDesc": "下挂遥控171",
+      "MyToolTipProperty": "helloworld"
+    },
+    {
+      "No": 1,
+      "YkNo": 172,
+      "ProType": 1,
+      "IsSpecial": 1,
+      "beizhu": null,
+      "DevAddr": "010203040506",
+      "DI0_3": "00000000",
+      "PA_PA2": "00000000",
+      "C0_C3": "00000000",
+      "Data": "0",
+      "UartNo": 0,
+      "SndFramCount": 2,
+      "YkDesc": "下挂遥控172",
+      "MyToolTipProperty": "helloworld"
+    }
+  ],
+  "interval_ms": 100
+}
