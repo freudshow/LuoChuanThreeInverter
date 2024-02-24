@@ -1,7 +1,7 @@
 {
   "applianceName": "未命名",
-  "TotalYcCount": 6,
-  "TotalYxCount": 5,
+  "TotalYcCount": 11,
+  "TotalYxCount": 0,
   "TotalYkCount": 0,
   "TotalDDCount": 0,
   "dataItem": [
@@ -63,7 +63,7 @@
       "linkNo": 5,
       "devNo": 2,
       "RegNo": 0,
-      "type": 0,
+      "type": 1,
       "Name": "断路器UAB",
       "Ratio": 1.0,
       "BoardDevAddr": 0
@@ -72,7 +72,7 @@
       "linkNo": 5,
       "devNo": 2,
       "RegNo": 1,
-      "type": 0,
+      "type": 1,
       "Name": "断路器UBC",
       "Ratio": 1.0,
       "BoardDevAddr": 0
@@ -81,7 +81,7 @@
       "linkNo": 5,
       "devNo": 2,
       "RegNo": 2,
-      "type": 0,
+      "type": 1,
       "Name": "断路器UCA",
       "Ratio": 1.0,
       "BoardDevAddr": 0
@@ -90,7 +90,7 @@
       "linkNo": 5,
       "devNo": 3,
       "RegNo": 0,
-      "type": 0,
+      "type": 1,
       "Name": "主站设定方阵有功值",
       "Ratio": 1.0,
       "BoardDevAddr": 0
@@ -99,7 +99,7 @@
       "linkNo": 5,
       "devNo": 4,
       "RegNo": 0,
-      "type": 0,
+      "type": 1,
       "Name": "逆变器总有功功率",
       "Ratio": 1.0,
       "BoardDevAddr": 0

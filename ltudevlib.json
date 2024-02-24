@@ -12685,7 +12685,7 @@
       "linkNo": 5,
       "devNo": 2,
       "RegNo": 0,
-      "type": 0,
+      "type": 1,
       "DataModelName": null,
       "DevAddr": null,
       "DevModelName": null,
@@ -12700,7 +12700,7 @@
       "YcLowLimite": 1.0,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 20992,
+      "GenerateModbusSlaveAddr": 20993,
       "TypeProperty": 0
     },
     {
@@ -12709,7 +12709,7 @@
       "linkNo": 5,
       "devNo": 2,
       "RegNo": 1,
-      "type": 0,
+      "type": 1,
       "DataModelName": null,
       "DevAddr": null,
       "DevModelName": null,
@@ -12724,7 +12724,7 @@
       "YcLowLimite": 1.0,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 20996,
+      "GenerateModbusSlaveAddr": 20997,
       "TypeProperty": 0
     },
     {
@@ -12733,7 +12733,7 @@
       "linkNo": 5,
       "devNo": 2,
       "RegNo": 2,
-      "type": 0,
+      "type": 1,
       "DataModelName": null,
       "DevAddr": null,
       "DevModelName": null,
@@ -12748,7 +12748,7 @@
       "YcLowLimite": 1.0,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 21000,
+      "GenerateModbusSlaveAddr": 21001,
       "TypeProperty": 0
     },
     {
@@ -12757,7 +12757,7 @@
       "linkNo": 5,
       "devNo": 3,
       "RegNo": 0,
-      "type": 0,
+      "type": 1,
       "DataModelName": null,
       "DevAddr": null,
       "DevModelName": null,
@@ -12772,7 +12772,7 @@
       "YcLowLimite": 1.0,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 21248,
+      "GenerateModbusSlaveAddr": 21249,
       "TypeProperty": 0
     },
     {
@@ -12781,7 +12781,7 @@
       "linkNo": 5,
       "devNo": 4,
       "RegNo": 0,
-      "type": 0,
+      "type": 1,
       "DataModelName": null,
       "DevAddr": null,
       "DevModelName": null,
@@ -12796,7 +12796,7 @@
       "YcLowLimite": 1.0,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 21504,
+      "GenerateModbusSlaveAddr": 21505,
       "TypeProperty": 0
     },
     {
