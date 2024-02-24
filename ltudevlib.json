@@ -1,8 +1,8 @@
 {
-  "YcLimiteEnable": 1,
-  "TotalYcCount": 216,
-  "TotalYxCount": 170,
-  "TotalYkCount": 84,
+  "YcLimiteEnable": 0,
+  "TotalYcCount": 232,
+  "TotalYxCount": 177,
+  "TotalYkCount": 86,
   "TotalDDCount": 134,
   "TotalParameterCount": 0,
   "DataItemCount": 0,
@@ -11827,7 +11827,7 @@
       "DevModelName": null,
       "DevDescription": null,
       "DevPort": null,
-      "Name": "0-无功功率",
+      "Name": "A相电流-1#",
       "Unit": null,
       "Ratio": 1.0,
       "DeadSet": 1.0,
@@ -11845,6 +11845,78 @@
       "linkNo": 3,
       "devNo": 1,
       "RegNo": 2,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "B相电流-1#",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 12553,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 494,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 1,
+      "RegNo": 3,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "C相电流-1#",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 12557,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 495,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 1,
+      "RegNo": 4,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "0-无功功率",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 12561,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 496,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 1,
+      "RegNo": 5,
       "type": 0,
       "DataModelName": null,
       "DevAddr": null,
@@ -11860,15 +11932,15 @@
       "YcLowLimite": 0.5,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 12552,
+      "GenerateModbusSlaveAddr": 12564,
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 494,
+      "RealDevOrderNum": 497,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 1,
-      "RegNo": 3,
+      "RegNo": 6,
       "type": 0,
       "DataModelName": null,
       "DevAddr": null,
@@ -11884,15 +11956,15 @@
       "YcLowLimite": 0.5,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 12556,
+      "GenerateModbusSlaveAddr": 12568,
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 495,
+      "RealDevOrderNum": 498,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 1,
-      "RegNo": 4,
+      "RegNo": 7,
       "type": 0,
       "DataModelName": null,
       "DevAddr": null,
@@ -11908,15 +11980,15 @@
       "YcLowLimite": 0.5,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 12560,
+      "GenerateModbusSlaveAddr": 12572,
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 496,
+      "RealDevOrderNum": 499,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 1,
-      "RegNo": 5,
+      "RegNo": 8,
       "type": 1,
       "DataModelName": "",
       "DevAddr": null,
@@ -11932,15 +12004,15 @@
       "YcLowLimite": 0.5,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 12565,
+      "GenerateModbusSlaveAddr": 12577,
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 497,
+      "RealDevOrderNum": 500,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 1,
-      "RegNo": 6,
+      "RegNo": 9,
       "type": 1,
       "DataModelName": "",
       "DevAddr": null,
@@ -11956,15 +12028,15 @@
       "YcLowLimite": 0.5,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 12569,
+      "GenerateModbusSlaveAddr": 12581,
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 498,
+      "RealDevOrderNum": 501,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 1,
-      "RegNo": 7,
+      "RegNo": 10,
       "type": 1,
       "DataModelName": "",
       "DevAddr": null,
@@ -11980,11 +12052,11 @@
       "YcLowLimite": 0.5,
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
-      "GenerateModbusSlaveAddr": 12573,
+      "GenerateModbusSlaveAddr": 12585,
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 499,
+      "RealDevOrderNum": 502,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 2,
@@ -12008,7 +12080,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 500,
+      "RealDevOrderNum": 503,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 2,
@@ -12032,7 +12104,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 501,
+      "RealDevOrderNum": 504,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 2,
@@ -12056,7 +12128,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 502,
+      "RealDevOrderNum": 505,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 2,
@@ -12080,7 +12152,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 503,
+      "RealDevOrderNum": 506,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 2,
@@ -12104,7 +12176,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 504,
+      "RealDevOrderNum": 507,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 2,
@@ -12128,7 +12200,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 505,
+      "RealDevOrderNum": 508,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 2,
@@ -12152,7 +12224,79 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 506,
+      "RealDevOrderNum": 509,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 2,
+      "RegNo": 8,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "A相电流-2#",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 12833,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 510,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 2,
+      "RegNo": 9,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "B相电流-2#",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 12837,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 511,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 2,
+      "RegNo": 10,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "C相电流-2#",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 12841,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 512,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 3,
@@ -12176,7 +12320,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 507,
+      "RealDevOrderNum": 513,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 3,
@@ -12200,7 +12344,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 508,
+      "RealDevOrderNum": 514,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 3,
@@ -12224,7 +12368,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 509,
+      "RealDevOrderNum": 515,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 3,
@@ -12248,7 +12392,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 510,
+      "RealDevOrderNum": 516,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 3,
@@ -12272,7 +12416,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 511,
+      "RealDevOrderNum": 517,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 3,
@@ -12296,7 +12440,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 512,
+      "RealDevOrderNum": 518,
       "ProtolNum": 10,
       "linkNo": 3,
       "devNo": 3,
@@ -12320,7 +12464,79 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 513,
+      "RealDevOrderNum": 519,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 3,
+      "RegNo": 8,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "A相电流-科士达",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 13089,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 520,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 3,
+      "RegNo": 9,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "B相电流-科士达",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 13093,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 521,
+      "ProtolNum": 10,
+      "linkNo": 3,
+      "devNo": 3,
+      "RegNo": 10,
+      "type": 1,
+      "DataModelName": "",
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "C相电流-科士达",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 13097,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 522,
       "ProtolNum": 20,
       "linkNo": 5,
       "devNo": 0,
@@ -12344,7 +12560,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 514,
+      "RealDevOrderNum": 523,
       "ProtolNum": 20,
       "linkNo": 5,
       "devNo": 0,
@@ -12368,7 +12584,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 515,
+      "RealDevOrderNum": 524,
       "ProtolNum": 20,
       "linkNo": 5,
       "devNo": 0,
@@ -12392,7 +12608,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 516,
+      "RealDevOrderNum": 525,
       "ProtolNum": 20,
       "linkNo": 5,
       "devNo": 1,
@@ -12416,7 +12632,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 517,
+      "RealDevOrderNum": 526,
       "ProtolNum": 20,
       "linkNo": 5,
       "devNo": 1,
@@ -12440,7 +12656,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 518,
+      "RealDevOrderNum": 527,
       "ProtolNum": 20,
       "linkNo": 5,
       "devNo": 1,
@@ -12464,7 +12680,127 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 519,
+      "RealDevOrderNum": 528,
+      "ProtolNum": 20,
+      "linkNo": 5,
+      "devNo": 2,
+      "RegNo": 0,
+      "type": 0,
+      "DataModelName": null,
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "断路器UAB",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.0,
+      "YcLowLimite": 1.0,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 20992,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 529,
+      "ProtolNum": 20,
+      "linkNo": 5,
+      "devNo": 2,
+      "RegNo": 1,
+      "type": 0,
+      "DataModelName": null,
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "断路器UBC",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.0,
+      "YcLowLimite": 1.0,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 20996,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 530,
+      "ProtolNum": 20,
+      "linkNo": 5,
+      "devNo": 2,
+      "RegNo": 2,
+      "type": 0,
+      "DataModelName": null,
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "断路器UCA",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.0,
+      "YcLowLimite": 1.0,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 21000,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 531,
+      "ProtolNum": 20,
+      "linkNo": 5,
+      "devNo": 3,
+      "RegNo": 0,
+      "type": 0,
+      "DataModelName": null,
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "主站设定方阵有功值",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.0,
+      "YcLowLimite": 1.0,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 21248,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 532,
+      "ProtolNum": 20,
+      "linkNo": 5,
+      "devNo": 4,
+      "RegNo": 0,
+      "type": 0,
+      "DataModelName": null,
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "逆变器总有功功率",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.0,
+      "YcLowLimite": 1.0,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 21504,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 533,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12488,7 +12824,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 520,
+      "RealDevOrderNum": 534,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12512,7 +12848,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 521,
+      "RealDevOrderNum": 535,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12536,7 +12872,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 522,
+      "RealDevOrderNum": 536,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12560,7 +12896,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 523,
+      "RealDevOrderNum": 537,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12584,7 +12920,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 524,
+      "RealDevOrderNum": 538,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12608,7 +12944,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 525,
+      "RealDevOrderNum": 539,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12632,7 +12968,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 526,
+      "RealDevOrderNum": 540,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12656,7 +12992,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 527,
+      "RealDevOrderNum": 541,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12680,7 +13016,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 528,
+      "RealDevOrderNum": 542,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12704,7 +13040,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 529,
+      "RealDevOrderNum": 543,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12728,7 +13064,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 530,
+      "RealDevOrderNum": 544,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12752,7 +13088,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 531,
+      "RealDevOrderNum": 545,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12776,7 +13112,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 532,
+      "RealDevOrderNum": 546,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12800,7 +13136,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 533,
+      "RealDevOrderNum": 547,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12824,7 +13160,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 534,
+      "RealDevOrderNum": 548,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12848,7 +13184,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 535,
+      "RealDevOrderNum": 549,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12872,7 +13208,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 536,
+      "RealDevOrderNum": 550,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12896,7 +13232,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 537,
+      "RealDevOrderNum": 551,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12920,7 +13256,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 538,
+      "RealDevOrderNum": 552,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12944,7 +13280,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 539,
+      "RealDevOrderNum": 553,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12968,7 +13304,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 540,
+      "RealDevOrderNum": 554,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -12992,7 +13328,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 541,
+      "RealDevOrderNum": 555,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13016,7 +13352,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 542,
+      "RealDevOrderNum": 556,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13040,7 +13376,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 543,
+      "RealDevOrderNum": 557,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13064,7 +13400,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 544,
+      "RealDevOrderNum": 558,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13088,7 +13424,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 545,
+      "RealDevOrderNum": 559,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13112,7 +13448,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 546,
+      "RealDevOrderNum": 560,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13136,7 +13472,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 547,
+      "RealDevOrderNum": 561,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13160,7 +13496,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 548,
+      "RealDevOrderNum": 562,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13184,7 +13520,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 549,
+      "RealDevOrderNum": 563,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13208,7 +13544,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 550,
+      "RealDevOrderNum": 564,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 0,
@@ -13232,7 +13568,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 551,
+      "RealDevOrderNum": 565,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13256,7 +13592,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 552,
+      "RealDevOrderNum": 566,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13280,7 +13616,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 553,
+      "RealDevOrderNum": 567,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13304,7 +13640,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 554,
+      "RealDevOrderNum": 568,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13328,7 +13664,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 555,
+      "RealDevOrderNum": 569,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13352,7 +13688,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 556,
+      "RealDevOrderNum": 570,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13376,7 +13712,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 557,
+      "RealDevOrderNum": 571,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13400,7 +13736,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 558,
+      "RealDevOrderNum": 572,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13424,7 +13760,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 559,
+      "RealDevOrderNum": 573,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13448,7 +13784,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 560,
+      "RealDevOrderNum": 574,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13472,7 +13808,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 561,
+      "RealDevOrderNum": 575,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13496,7 +13832,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 562,
+      "RealDevOrderNum": 576,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13520,7 +13856,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 563,
+      "RealDevOrderNum": 577,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13544,7 +13880,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 564,
+      "RealDevOrderNum": 578,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13568,7 +13904,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 565,
+      "RealDevOrderNum": 579,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13592,7 +13928,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 566,
+      "RealDevOrderNum": 580,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13616,7 +13952,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 567,
+      "RealDevOrderNum": 581,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13640,7 +13976,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 568,
+      "RealDevOrderNum": 582,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13664,7 +14000,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 569,
+      "RealDevOrderNum": 583,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13688,7 +14024,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 570,
+      "RealDevOrderNum": 584,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13712,7 +14048,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 571,
+      "RealDevOrderNum": 585,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13736,7 +14072,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 572,
+      "RealDevOrderNum": 586,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13760,7 +14096,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 573,
+      "RealDevOrderNum": 587,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13784,7 +14120,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 574,
+      "RealDevOrderNum": 588,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13808,7 +14144,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 575,
+      "RealDevOrderNum": 589,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13832,7 +14168,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 576,
+      "RealDevOrderNum": 590,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13856,7 +14192,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 577,
+      "RealDevOrderNum": 591,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13880,7 +14216,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 578,
+      "RealDevOrderNum": 592,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13904,7 +14240,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 579,
+      "RealDevOrderNum": 593,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13928,7 +14264,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 580,
+      "RealDevOrderNum": 594,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13952,7 +14288,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 581,
+      "RealDevOrderNum": 595,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -13976,7 +14312,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 582,
+      "RealDevOrderNum": 596,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -14000,7 +14336,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 583,
+      "RealDevOrderNum": 597,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -14024,7 +14360,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 584,
+      "RealDevOrderNum": 598,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -14048,7 +14384,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 585,
+      "RealDevOrderNum": 599,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -14072,7 +14408,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 586,
+      "RealDevOrderNum": 600,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -14096,7 +14432,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 587,
+      "RealDevOrderNum": 601,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 1,
@@ -14120,7 +14456,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 588,
+      "RealDevOrderNum": 602,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14144,7 +14480,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 589,
+      "RealDevOrderNum": 603,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14168,7 +14504,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 590,
+      "RealDevOrderNum": 604,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14192,7 +14528,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 591,
+      "RealDevOrderNum": 605,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14216,7 +14552,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 592,
+      "RealDevOrderNum": 606,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14240,7 +14576,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 593,
+      "RealDevOrderNum": 607,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14264,7 +14600,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 594,
+      "RealDevOrderNum": 608,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14288,7 +14624,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 595,
+      "RealDevOrderNum": 609,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14312,7 +14648,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 596,
+      "RealDevOrderNum": 610,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14336,7 +14672,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 597,
+      "RealDevOrderNum": 611,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14360,7 +14696,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 598,
+      "RealDevOrderNum": 612,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 2,
@@ -14384,7 +14720,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 599,
+      "RealDevOrderNum": 613,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 3,
@@ -14408,7 +14744,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 600,
+      "RealDevOrderNum": 614,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 3,
@@ -14432,7 +14768,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 601,
+      "RealDevOrderNum": 615,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 3,
@@ -14456,7 +14792,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 602,
+      "RealDevOrderNum": 616,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 3,
@@ -14480,7 +14816,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 603,
+      "RealDevOrderNum": 617,
       "ProtolNum": 47,
       "linkNo": 8,
       "devNo": 3,
@@ -14503,8 +14839,8 @@
       "GenerateModbusSlaveAddr": 33555,
       "TypeProperty": 0
     },
-	{
-      "RealDevOrderNum": 604,
+    {
+      "RealDevOrderNum": 618,
       "ProtolNum": 36,
       "linkNo": 9,
       "devNo": 1,
@@ -14528,7 +14864,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 605,
+      "RealDevOrderNum": 619,
       "ProtolNum": 36,
       "linkNo": 9,
       "devNo": 1,
@@ -14552,7 +14888,7 @@
       "TypeProperty": 0
     },
     {
-      "RealDevOrderNum": 606,
+      "RealDevOrderNum": 620,
       "ProtolNum": 6,
       "linkNo": 10,
       "devNo": 0,
@@ -14573,6 +14909,198 @@
       "LessOrMore": 0,
       "GenerateVirtueYx": 0,
       "GenerateModbusSlaveAddr": 40960,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 621,
+      "ProtolNum": 6,
+      "linkNo": 10,
+      "devNo": 0,
+      "RegNo": 1,
+      "type": 1,
+      "DataModelName": "PhV_phsA",
+      "DevAddr": "000000000001",
+      "DevModelName": "MultiMeter",
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "(1)电压数据块",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 1,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 40965,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 622,
+      "ProtolNum": 6,
+      "linkNo": 10,
+      "devNo": 0,
+      "RegNo": 2,
+      "type": 1,
+      "DataModelName": "PhV_phsB",
+      "DevAddr": "000000000001",
+      "DevModelName": "MultiMeter",
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "(1)电压数据块",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 1,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 40969,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 623,
+      "ProtolNum": 6,
+      "linkNo": 10,
+      "devNo": 0,
+      "RegNo": 3,
+      "type": 1,
+      "DataModelName": "PhV_phsC",
+      "DevAddr": "000000000001",
+      "DevModelName": "MultiMeter",
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "(1)电压数据块",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 1,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 40973,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 624,
+      "ProtolNum": 6,
+      "linkNo": 10,
+      "devNo": 0,
+      "RegNo": 4,
+      "type": 1,
+      "DataModelName": "A_phsA",
+      "DevAddr": "000000000001",
+      "DevModelName": "MultiMeter",
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "(1)电流数据块",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 1,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 40977,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 625,
+      "ProtolNum": 6,
+      "linkNo": 10,
+      "devNo": 0,
+      "RegNo": 5,
+      "type": 1,
+      "DataModelName": "A_phsB",
+      "DevAddr": "000000000001",
+      "DevModelName": "MultiMeter",
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "(1)电流数据块",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 1,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 40981,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 626,
+      "ProtolNum": 6,
+      "linkNo": 10,
+      "devNo": 0,
+      "RegNo": 6,
+      "type": 1,
+      "DataModelName": "A_phsC",
+      "DevAddr": "000000000001",
+      "DevModelName": "MultiMeter",
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "(1)电流数据块",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 1,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 40985,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 627,
+      "ProtolNum": 6,
+      "linkNo": 10,
+      "devNo": 0,
+      "RegNo": 7,
+      "type": 1,
+      "DataModelName": "电压",
+      "DevAddr": "000000000001",
+      "DevModelName": "MultiMeter",
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "(1)*当前正向有功总电能",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 1,
+      "NewYcOverLimite": 0.5,
+      "YcLowLimite": 0.5,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 40989,
+      "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 628,
+      "ProtolNum": 39,
+      "linkNo": 11,
+      "devNo": 0,
+      "RegNo": 0,
+      "type": 0,
+      "DataModelName": null,
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "端口状态监视遥信0",
+      "Unit": null,
+      "Ratio": 0.0,
+      "DeadSet": 0.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.0,
+      "YcLowLimite": 0.0,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 45056,
       "TypeProperty": 0
     }
   ]

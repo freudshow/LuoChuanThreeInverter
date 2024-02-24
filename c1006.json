@@ -47,6 +47,104 @@
       "Danwei": "次",
       "DataRorW": 0,
       "DveModel": "MultiMeter"
+    },
+    {
+      "DataName": null,
+      "Desc": "(1)电压数据块",
+      "UseBlockData": 1,
+      "IsMultiRouteData": false,
+      "BlockModelList": [
+        {
+          "DataModelName": "PhV_phsA",
+          "DataDescription": "A相电压"
+        },
+        {
+          "DataModelName": "PhV_phsB",
+          "DataDescription": "B相电压"
+        },
+        {
+          "DataModelName": "PhV_phsC",
+          "DataDescription": "C相电压"
+        }
+      ],
+      "RouteIdx": 1,
+      "RegNo": 1,
+      "Type": 1,
+      "BlockDataCount": 3,
+      "DataModelName": "电压",
+      "DataID": [
+        "02",
+        "01",
+        "FF",
+        "00"
+      ],
+      "CheckEnabled": true,
+      "Format": "XXX.X",
+      "DataLen": 6,
+      "Danwei": "V",
+      "DataRorW": 0,
+      "DveModel": "MultiMeter"
+    },
+    {
+      "DataName": null,
+      "Desc": "(1)电流数据块",
+      "UseBlockData": 1,
+      "IsMultiRouteData": false,
+      "BlockModelList": [
+        {
+          "DataModelName": "A_phsA",
+          "DataDescription": "A相电流"
+        },
+        {
+          "DataModelName": "A_phsB",
+          "DataDescription": "B相电流"
+        },
+        {
+          "DataModelName": "A_phsC",
+          "DataDescription": "C相电流"
+        }
+      ],
+      "RouteIdx": 1,
+      "RegNo": 4,
+      "Type": 1,
+      "BlockDataCount": 3,
+      "DataModelName": "电压",
+      "DataID": [
+        "02",
+        "02",
+        "FF",
+        "00"
+      ],
+      "CheckEnabled": true,
+      "Format": "XXX.XXX",
+      "DataLen": 9,
+      "Danwei": "A",
+      "DataRorW": 0,
+      "DveModel": "MultiMeter"
+    },
+    {
+      "DataName": null,
+      "Desc": "(1)*当前正向有功总电能",
+      "UseBlockData": 0,
+      "IsMultiRouteData": false,
+      "BlockModelList": [],
+      "RouteIdx": 1,
+      "RegNo": 7,
+      "Type": 1,
+      "BlockDataCount": 0,
+      "DataModelName": "电压",
+      "DataID": [
+        "00",
+        "01",
+        "00",
+        "00"
+      ],
+      "CheckEnabled": true,
+      "Format": "XXXXXX.XX",
+      "DataLen": 4,
+      "Danwei": "kWh",
+      "DataRorW": 0,
+      "DveModel": "MultiMeter"
     }
   ]
 }

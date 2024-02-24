@@ -13,9 +13,87 @@
           "StoreRegStartAddr": 1,
           "DataItemCount": 1,
           "SlaveDevAddr": 2,
+          "ModbusRegAddr": 39,
+          "GetRegCount": 1,
+          "AreaNum": 0,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 39,
+          "HighAddr": 39,
+          "DataFormat": 0,
+          "KeyDec": [
+            "A相电流-1#"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 2,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 2,
+          "ModbusRegAddr": 43,
+          "GetRegCount": 1,
+          "AreaNum": 1,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 43,
+          "HighAddr": 43,
+          "DataFormat": 0,
+          "KeyDec": [
+            "B相电流-1#"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 3,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 2,
+          "ModbusRegAddr": 47,
+          "GetRegCount": 1,
+          "AreaNum": 2,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 47,
+          "HighAddr": 47,
+          "DataFormat": 0,
+          "KeyDec": [
+            "C相电流-1#"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 4,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 2,
           "ModbusRegAddr": 232,
           "GetRegCount": 2,
-          "AreaNum": 0,
+          "AreaNum": 3,
           "DataProperty": 1,
           "DataType": "ModbusDataType_s32",
           "DataTypeEnum": 5,
@@ -35,13 +113,13 @@
           "MultiTypeList": null
         },
         {
-          "ModbusCmd": 3,
-          "StoreRegStartAddr": 2,
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 5,
           "DataItemCount": 3,
           "SlaveDevAddr": 2,
           "ModbusRegAddr": 3000,
           "GetRegCount": 1,
-          "AreaNum": 1,
+          "AreaNum": 4,
           "DataProperty": 0,
           "DataType": "ModbusDataType_bitField",
           "DataTypeEnum": 6,
@@ -81,12 +159,12 @@
         },
         {
           "ModbusCmd": 4,
-          "StoreRegStartAddr": 5,
+          "StoreRegStartAddr": 8,
           "DataItemCount": 2,
           "SlaveDevAddr": 2,
           "ModbusRegAddr": 53,
           "GetRegCount": 4,
-          "AreaNum": 2,
+          "AreaNum": 5,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u32",
           "DataTypeEnum": 2,
@@ -110,12 +188,12 @@
         },
         {
           "ModbusCmd": 4,
-          "StoreRegStartAddr": 7,
+          "StoreRegStartAddr": 10,
           "DataItemCount": 1,
           "SlaveDevAddr": 2,
           "ModbusRegAddr": 35,
           "GetRegCount": 2,
-          "AreaNum": 3,
+          "AreaNum": 6,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u32",
           "DataTypeEnum": 2,
@@ -246,18 +324,18 @@
           "MultiTypeList": null
         },
         {
-          "ModbusCmd": 4,
+          "ModbusCmd": 3,
           "StoreRegStartAddr": 5,
           "DataItemCount": 3,
           "SlaveDevAddr": 3,
-          "ModbusRegAddr": 3030,
+          "ModbusRegAddr": 3000,
           "GetRegCount": 1,
           "AreaNum": 4,
           "DataProperty": 0,
           "DataType": "ModbusDataType_bitField",
           "DataTypeEnum": 6,
-          "LowAddr": 3030,
-          "HighAddr": 3030,
+          "LowAddr": 3000,
+          "HighAddr": 3000,
           "DataFormat": 0,
           "KeyDec": null,
           "KeyMode": null,
@@ -267,27 +345,105 @@
               "No": 0,
               "KeyMode": null,
               "KeyDec": "并网发电",
-              "ModbusRegAddr": 3030,
+              "ModbusRegAddr": 3000,
               "Reverse": 1,
-              "Bit": 3
+              "Bit": 1
             },
             {
               "No": 1,
               "KeyMode": null,
               "KeyDec": "故障停运",
-              "ModbusRegAddr": 3030,
+              "ModbusRegAddr": 3000,
               "Reverse": 1,
-              "Bit": 4
+              "Bit": 3
             },
             {
               "No": 2,
               "KeyMode": null,
               "KeyDec": "设备点检",
-              "ModbusRegAddr": 3030,
+              "ModbusRegAddr": 3000,
               "Reverse": 1,
-              "Bit": 2
+              "Bit": 9
             }
           ],
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 8,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 3,
+          "ModbusRegAddr": 39,
+          "GetRegCount": 1,
+          "AreaNum": 5,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 39,
+          "HighAddr": 39,
+          "DataFormat": 0,
+          "KeyDec": [
+            "A相电流-2#"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 9,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 3,
+          "ModbusRegAddr": 43,
+          "GetRegCount": 1,
+          "AreaNum": 6,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 43,
+          "HighAddr": 43,
+          "DataFormat": 0,
+          "KeyDec": [
+            "B相电流-2#"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 10,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 3,
+          "ModbusRegAddr": 47,
+          "GetRegCount": 1,
+          "AreaNum": 7,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 47,
+          "HighAddr": 47,
+          "DataFormat": 0,
+          "KeyDec": [
+            "C相电流-2#"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
           "MultiTypeList": null
         }
       ]
@@ -444,6 +600,38 @@
               "Bit": 2
             }
           ],
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 8,
+          "DataItemCount": 3,
+          "SlaveDevAddr": 4,
+          "ModbusRegAddr": 3020,
+          "GetRegCount": 3,
+          "AreaNum": 5,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_s16",
+          "DataTypeEnum": 4,
+          "LowAddr": 3020,
+          "HighAddr": 3022,
+          "DataFormat": 0,
+          "KeyDec": [
+            "A相电流-科士达",
+            "B相电流-科士达",
+            "C相电流-科士达"
+          ],
+          "KeyMode": [
+            "",
+            "",
+            ""
+          ],
+          "KeyCoe": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "DataType_Bit": null,
           "MultiTypeList": null
         }
       ]
