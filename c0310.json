@@ -211,6 +211,32 @@
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 11,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 2,
+          "ModbusRegAddr": 3161,
+          "GetRegCount": 1,
+          "AreaNum": 7,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 3161,
+          "HighAddr": 3161,
+          "DataFormat": 0,
+          "KeyDec": [
+            "逆变器1#-功率因数"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
         }
       ]
     },
@@ -445,6 +471,32 @@
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 11,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 3,
+          "ModbusRegAddr": 3161,
+          "GetRegCount": 1,
+          "AreaNum": 8,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 3161,
+          "HighAddr": 3161,
+          "DataFormat": 0,
+          "KeyDec": [
+            "逆变器2#-功率因数"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.1
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
         }
       ]
     },
@@ -630,6 +682,32 @@
             0.01,
             0.01,
             0.01
+          ],
+          "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 4,
+          "StoreRegStartAddr": 11,
+          "DataItemCount": 1,
+          "SlaveDevAddr": 1,
+          "ModbusRegAddr": 3056,
+          "GetRegCount": 1,
+          "AreaNum": 6,
+          "DataProperty": 1,
+          "DataType": "ModbusDataType_u16",
+          "DataTypeEnum": 1,
+          "LowAddr": 3056,
+          "HighAddr": 3056,
+          "DataFormat": 0,
+          "KeyDec": [
+            "逆变器3#-功率因数"
+          ],
+          "KeyMode": [
+            ""
+          ],
+          "KeyCoe": [
+            0.001
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
