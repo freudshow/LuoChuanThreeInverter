@@ -610,11 +610,11 @@
     },
     {
       "No": 5,
-      "Name": "设备[2]-备用遥信22-实时库号[131]",
+      "Name": "设备[0]-子方阵AGC投入-实时库号[25]",
       "Unit": null,
       "Addr": 6,
       "Xishu": 1.0,
-      "RealDevNo": 131,
+      "RealDevNo": 25,
       "type": 0,
       "CurrentValue": 0.0,
       "Idx": 5
@@ -632,11 +632,11 @@
     },
     {
       "No": 7,
-      "Name": "设备[2]-备用遥信24-实时库号[133]",
+      "Name": "设备[0]-子方阵AVC投入-实时库号[26]",
       "Unit": null,
       "Addr": 8,
       "Xishu": 1.0,
-      "RealDevNo": 133,
+      "RealDevNo": 26,
       "type": 0,
       "CurrentValue": 0.0,
       "Idx": 7
