@@ -350,18 +350,18 @@
           "MultiTypeList": null
         },
         {
-          "ModbusCmd": 3,
+          "ModbusCmd": 4,
           "StoreRegStartAddr": 5,
           "DataItemCount": 3,
           "SlaveDevAddr": 3,
-          "ModbusRegAddr": 3000,
+          "ModbusRegAddr": 3030,
           "GetRegCount": 1,
           "AreaNum": 4,
           "DataProperty": 0,
           "DataType": "ModbusDataType_bitField",
           "DataTypeEnum": 6,
-          "LowAddr": 3000,
-          "HighAddr": 3000,
+          "LowAddr": 3030,
+          "HighAddr": 3030,
           "DataFormat": 0,
           "KeyDec": null,
           "KeyMode": null,
@@ -373,7 +373,7 @@
               "KeyDec": "并网发电",
               "ModbusRegAddr": 3000,
               "Reverse": 1,
-              "Bit": 1
+              "Bit": 3
             },
             {
               "No": 1,
@@ -381,7 +381,7 @@
               "KeyDec": "故障停运",
               "ModbusRegAddr": 3000,
               "Reverse": 1,
-              "Bit": 3
+              "Bit": 4
             },
             {
               "No": 2,
@@ -389,7 +389,7 @@
               "KeyDec": "设备点检",
               "ModbusRegAddr": 3000,
               "Reverse": 1,
-              "Bit": 9
+              "Bit": 2
             }
           ],
           "MultiTypeList": null
@@ -397,77 +397,31 @@
         {
           "ModbusCmd": 4,
           "StoreRegStartAddr": 8,
-          "DataItemCount": 1,
+          "DataItemCount": 3,
           "SlaveDevAddr": 3,
-          "ModbusRegAddr": 39,
-          "GetRegCount": 1,
+          "ModbusRegAddr": 3020,
+          "GetRegCount": 3,
           "AreaNum": 5,
           "DataProperty": 1,
-          "DataType": "ModbusDataType_u16",
-          "DataTypeEnum": 1,
-          "LowAddr": 39,
-          "HighAddr": 39,
+          "DataType": "ModbusDataType_s16",
+          "DataTypeEnum": 4,
+          "LowAddr": 3020,
+          "HighAddr": 3022,
           "DataFormat": 0,
           "KeyDec": [
-            "A相电流-2#"
+            "A相电流-科士达1#",
+            "B相电流-科士达1#",
+            "C相电流-科士达1#"
           ],
           "KeyMode": [
+            "",
+            "",
             ""
           ],
           "KeyCoe": [
-            0.1
-          ],
-          "DataType_Bit": null,
-          "MultiTypeList": null
-        },
-        {
-          "ModbusCmd": 4,
-          "StoreRegStartAddr": 9,
-          "DataItemCount": 1,
-          "SlaveDevAddr": 3,
-          "ModbusRegAddr": 43,
-          "GetRegCount": 1,
-          "AreaNum": 6,
-          "DataProperty": 1,
-          "DataType": "ModbusDataType_u16",
-          "DataTypeEnum": 1,
-          "LowAddr": 43,
-          "HighAddr": 43,
-          "DataFormat": 0,
-          "KeyDec": [
-            "B相电流-2#"
-          ],
-          "KeyMode": [
-            ""
-          ],
-          "KeyCoe": [
-            0.1
-          ],
-          "DataType_Bit": null,
-          "MultiTypeList": null
-        },
-        {
-          "ModbusCmd": 4,
-          "StoreRegStartAddr": 10,
-          "DataItemCount": 1,
-          "SlaveDevAddr": 3,
-          "ModbusRegAddr": 47,
-          "GetRegCount": 1,
-          "AreaNum": 7,
-          "DataProperty": 1,
-          "DataType": "ModbusDataType_u16",
-          "DataTypeEnum": 1,
-          "LowAddr": 47,
-          "HighAddr": 47,
-          "DataFormat": 0,
-          "KeyDec": [
-            "C相电流-2#"
-          ],
-          "KeyMode": [
-            ""
-          ],
-          "KeyCoe": [
-            0.1
+            0.01,
+            0.01,
+            0.01
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
@@ -477,23 +431,23 @@
           "StoreRegStartAddr": 11,
           "DataItemCount": 1,
           "SlaveDevAddr": 3,
-          "ModbusRegAddr": 3161,
+          "ModbusRegAddr": 3056,
           "GetRegCount": 1,
-          "AreaNum": 8,
+          "AreaNum": 6,
           "DataProperty": 1,
           "DataType": "ModbusDataType_u16",
           "DataTypeEnum": 1,
-          "LowAddr": 3161,
-          "HighAddr": 3161,
+          "LowAddr": 3056,
+          "HighAddr": 3056,
           "DataFormat": 0,
           "KeyDec": [
-            "逆变器2#-功率因数"
+            "功率因数-科士达1#"
           ],
           "KeyMode": [
             ""
           ],
           "KeyCoe": [
-            0.1
+            0.001
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
@@ -690,7 +644,7 @@
           "ModbusCmd": 4,
           "StoreRegStartAddr": 11,
           "DataItemCount": 1,
-          "SlaveDevAddr": 1,
+          "SlaveDevAddr": 4,
           "ModbusRegAddr": 3056,
           "GetRegCount": 1,
           "AreaNum": 6,
