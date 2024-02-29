@@ -1,0 +1,30 @@
+{
+  "Period": 50,
+  "dataset": [
+    {
+      "DevIndex": 0,
+      "PollingInterval": 4,
+      "ArrayLogicalDes": "遥测量转多个遥信操作函数",
+      "ArrayLogical": 7,
+      "CallbackIndex": 0,
+      "data": [
+        {
+          "RtdbNo": 633,
+          "Desc": "设备[0]-断路器合闸状态字遥测-实时库号[633]",
+          "Type": 1,
+          "No": 0,
+          "InputOutPut": 0,
+          "SelectData": null
+        },
+        {
+          "RtdbNo": 632,
+          "Desc": "设备[0]-断路器合闸-实时库号[632]",
+          "Type": 0,
+          "No": 1,
+          "InputOutPut": 1,
+          "SelectData": "0"
+        }
+      ]
+    }
+  ]
+}

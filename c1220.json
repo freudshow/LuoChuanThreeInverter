@@ -1,0 +1,81 @@
+{
+  "applianceName": "未命名",
+  "TotalYcCount": 7,
+  "TotalYxCount": 1,
+  "TotalYkCount": 0,
+  "TotalDDCount": 0,
+  "dataItem": [
+    {
+      "linkNo": 12,
+      "devNo": 0,
+      "RegNo": 0,
+      "type": 0,
+      "Name": "断路器合闸",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 0,
+      "RegNo": 1,
+      "type": 1,
+      "Name": "断路器合闸状态字遥测",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 1,
+      "RegNo": 0,
+      "type": 1,
+      "Name": "当月发电量-断路器",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 1,
+      "RegNo": 1,
+      "type": 1,
+      "Name": "上月发电量-断路器",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 1,
+      "RegNo": 2,
+      "type": 1,
+      "Name": "当日发电量-断路器",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 1,
+      "RegNo": 3,
+      "type": 1,
+      "Name": "昨日发电量-断路器",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 1,
+      "RegNo": 4,
+      "type": 1,
+      "Name": "今年发电量-断路器",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 1,
+      "RegNo": 5,
+      "type": 1,
+      "Name": "去年发电量-断路器",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    }
+  ]
+}
