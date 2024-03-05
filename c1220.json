@@ -1,6 +1,6 @@
 {
   "applianceName": "未命名",
-  "TotalYcCount": 7,
+  "TotalYcCount": 9,
   "TotalYxCount": 1,
   "TotalYkCount": 0,
   "TotalDDCount": 0,
@@ -74,6 +74,24 @@
       "RegNo": 5,
       "type": 1,
       "Name": "去年发电量-断路器",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 2,
+      "RegNo": 0,
+      "type": 1,
+      "Name": "科士达1#-功率因数",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 2,
+      "RegNo": 1,
+      "type": 1,
+      "Name": "科士达2#-功率因数",
       "Ratio": 1.0,
       "BoardDevAddr": 0
     }

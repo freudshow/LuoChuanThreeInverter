@@ -371,7 +371,7 @@
               "No": 0,
               "KeyMode": null,
               "KeyDec": "并网发电",
-              "ModbusRegAddr": 3000,
+              "ModbusRegAddr": 3030,
               "Reverse": 1,
               "Bit": 3
             },
@@ -379,7 +379,7 @@
               "No": 1,
               "KeyMode": null,
               "KeyDec": "故障停运",
-              "ModbusRegAddr": 3000,
+              "ModbusRegAddr": 3030,
               "Reverse": 1,
               "Bit": 4
             },
@@ -387,7 +387,7 @@
               "No": 2,
               "KeyMode": null,
               "KeyDec": "设备点检",
-              "ModbusRegAddr": 3000,
+              "ModbusRegAddr": 3030,
               "Reverse": 1,
               "Bit": 2
             }
