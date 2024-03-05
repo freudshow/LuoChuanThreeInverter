@@ -15414,6 +15414,30 @@
       "GenerateVirtueYx": 0,
       "GenerateModbusSlaveAddr": 49669,
       "TypeProperty": 0
+    },
+    {
+      "RealDevOrderNum": 642,
+      "ProtolNum": 20,
+      "linkNo": 12,
+      "devNo": 2,
+      "RegNo": 3,
+      "type": 1,
+      "DataModelName": null,
+      "DevAddr": null,
+      "DevModelName": null,
+      "DevDescription": null,
+      "DevPort": null,
+      "Name": "并网点-总发电量",
+      "Unit": null,
+      "Ratio": 1.0,
+      "DeadSet": 1.0,
+      "RouteIdx": 0,
+      "NewYcOverLimite": 0.0,
+      "YcLowLimite": 1.0,
+      "LessOrMore": 0,
+      "GenerateVirtueYx": 0,
+      "GenerateModbusSlaveAddr": 49677,
+      "TypeProperty": 0
     }
   ]
 }

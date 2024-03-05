@@ -1,6 +1,6 @@
 {
   "applianceName": "未命名",
-  "TotalYcCount": 9,
+  "TotalYcCount": 10,
   "TotalYxCount": 1,
   "TotalYkCount": 0,
   "TotalDDCount": 0,
@@ -92,6 +92,15 @@
       "RegNo": 1,
       "type": 1,
       "Name": "科士达2#-功率因数",
+      "Ratio": 1.0,
+      "BoardDevAddr": 0
+    },
+    {
+      "linkNo": 12,
+      "devNo": 2,
+      "RegNo": 3,
+      "type": 1,
+      "Name": "并网点-总发电量",
       "Ratio": 1.0,
       "BoardDevAddr": 0
     }

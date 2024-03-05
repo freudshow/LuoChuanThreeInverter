@@ -1,6 +1,6 @@
 {
   "Pad": {
-    "TotalYcCount": 49,
+    "TotalYcCount": 50,
     "TotalYxCount": 19,
     "TotalYkCount": 2,
     "TotalDDCount": 0,
@@ -553,69 +553,80 @@
     },
     {
       "No": 43,
-      "Name": "设备[1]-当月发电量-断路器-实时库号[634]",
+      "Name": "设备[2]-并网点-总发电量-实时库号[642]",
       "Unit": null,
       "Addr": 16428,
       "Xishu": 1.0,
-      "RealDevNo": 634,
+      "RealDevNo": 642,
       "type": 1,
       "CurrentValue": 0.0,
       "Idx": 43
     },
     {
       "No": 44,
-      "Name": "设备[1]-上月发电量-断路器-实时库号[635]",
+      "Name": "设备[1]-当月发电量-断路器-实时库号[634]",
       "Unit": null,
       "Addr": 16429,
       "Xishu": 1.0,
-      "RealDevNo": 635,
+      "RealDevNo": 634,
       "type": 1,
       "CurrentValue": 0.0,
       "Idx": 44
     },
     {
       "No": 45,
-      "Name": "设备[1]-当日发电量-断路器-实时库号[636]",
+      "Name": "设备[1]-上月发电量-断路器-实时库号[635]",
       "Unit": null,
       "Addr": 16430,
       "Xishu": 1.0,
-      "RealDevNo": 636,
+      "RealDevNo": 635,
       "type": 1,
       "CurrentValue": 0.0,
       "Idx": 45
     },
     {
       "No": 46,
-      "Name": "设备[1]-昨日发电量-断路器-实时库号[637]",
+      "Name": "设备[1]-当日发电量-断路器-实时库号[636]",
       "Unit": null,
       "Addr": 16431,
       "Xishu": 1.0,
-      "RealDevNo": 637,
+      "RealDevNo": 636,
       "type": 1,
       "CurrentValue": 0.0,
       "Idx": 46
     },
     {
       "No": 47,
-      "Name": "设备[1]-今年发电量-断路器-实时库号[638]",
+      "Name": "设备[1]-昨日发电量-断路器-实时库号[637]",
       "Unit": null,
       "Addr": 16432,
       "Xishu": 1.0,
-      "RealDevNo": 638,
+      "RealDevNo": 637,
       "type": 1,
       "CurrentValue": 0.0,
       "Idx": 47
     },
     {
       "No": 48,
-      "Name": "设备[1]-去年发电量-断路器-实时库号[639]",
+      "Name": "设备[1]-今年发电量-断路器-实时库号[638]",
       "Unit": null,
       "Addr": 16433,
+      "Xishu": 1.0,
+      "RealDevNo": 638,
+      "type": 1,
+      "CurrentValue": 0.0,
+      "Idx": 48
+    },
+    {
+      "No": 49,
+      "Name": "设备[1]-去年发电量-断路器-实时库号[639]",
+      "Unit": null,
+      "Addr": 16434,
       "Xishu": 1.0,
       "RealDevNo": 639,
       "type": 1,
       "CurrentValue": 0.0,
-      "Idx": 48
+      "Idx": 49
     }
   ],
   "YXDataItem": [
