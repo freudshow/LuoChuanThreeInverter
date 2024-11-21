@@ -4,7 +4,7 @@
       "mac": "192.168.88.44.55.55",
       "macChanged": 0,
       "localIPAddr": "192.168.0.232",
-      "gateway": "192.168.0.1",
+      "gateway": "",
       "subnet": "255.255.255.0",
       "dns_server": "114.114.114.114",
       "multiNet": [
@@ -12,7 +12,7 @@
           "mac": "192.168.88.44.55.55",
           "macChanged": 0,
           "localIPAddr": "192.168.0.232",
-          "gateway": "192.168.0.1",
+          "gateway": "",
           "subnet": "255.255.255.0",
           "dns_server": "114.114.114.114",
           "netIndex": 0
@@ -21,7 +21,7 @@
           "mac": "192.168.88.44.55.55",
           "macChanged": 0,
           "localIPAddr": "192.168.1.232",
-          "gateway": "192.168.1.1",
+          "gateway": "",
           "subnet": "255.255.255.0",
           "dns_server": "114.114.114.114",
           "netIndex": 1
@@ -45,13 +45,22 @@
           "netIndex": 3
         },
         {
+          "mac": "192.168.88.44.55.55",
+          "macChanged": 0,
+          "localIPAddr": "192.168.31.232",
+          "gateway": "",
+          "subnet": "255.255.255.0",
+          "dns_server": "114.114.114.114",
+          "netIndex": 4
+        },
+        {
           "mac": "",
           "macChanged": 0,
           "localIPAddr": "",
           "gateway": "",
           "subnet": "255.255.255.0",
           "dns_server": "114.114.114.114",
-          "netIndex": 4
+          "netIndex": 5
         }
       ],
       "ChildNetCfg": [
@@ -82,7 +91,7 @@
           "LocalPort": 5000,
           "RemotePort": 1000,
           "SocketChannelNo": 0,
-          "NetChannelNo": 3,
+          "NetChannelNo": 10,
           "TcpServerSet": null
         },
         {
@@ -97,18 +106,13 @@
         },
         {
           "linkno": 4,
-          "mode": 130,
+          "mode": 0,
           "ipaddr": "192.168.1.10",
-          "LocalPort": 2404,
+          "LocalPort": 0,
           "RemotePort": 1000,
-          "SocketChannelNo": 0,
-          "NetChannelNo": 13,
-          "TcpServerSet": [
-            {
-              "No": 0,
-              "ClientIp": "162.168.100.37"
-            }
-          ]
+          "SocketChannelNo": 8,
+          "NetChannelNo": 3,
+          "TcpServerSet": null
         },
         {
           "linkno": 5,
